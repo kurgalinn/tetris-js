@@ -1,0 +1,48 @@
+body {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Courier, sans-serif;
+    font-size: 1rem;
+}
+
+.tetris {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.tetris canvas {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.tetris h2 {
+    margin: 10px 0 20px 0;
+    color: white;
+    animation: blink linear infinite 12s;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+
+@keyframes blink {
+    70% {
+        opacity: 1;
+    }
+    79% {
+        opacity: 0;
+    }
+    81% {
+        opacity: 1;
+    }
+    82% {
+        opacity: 0;
+    }
+    83% {
+        opacity: 1;
+    }
+    92% {
+        opacity: 0;
+    }
+    92.5% {
+        opacity: 1;
+    }
+}
